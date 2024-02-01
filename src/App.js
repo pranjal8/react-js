@@ -8,6 +8,7 @@ import NestedObject from "./component/NestedObject";
 import ModalExample from "./component/Modal";
 import { Grid } from "@mui/material";
 import MultiselectDropdown from "./component/MultiselectDropdown";
+import MyTable from "./component/MyTable";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       {/* <ModalExample/> */}
 
       <MultiselectDropdown/>
+      <MyTable/>
       
       
     </Grid>
